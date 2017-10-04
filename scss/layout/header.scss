@@ -1,0 +1,75 @@
+
+.navbar-toggle {
+	display: none;
+}
+
+.navbar-nav {
+	list-style: none;
+	display: flex;
+	background: $blue-dark-opacity;
+	margin: 0;
+	padding-left: 0;
+
+	& .nav-item {
+		font-size: $s;
+		flex: auto;
+	}
+
+	& .nav-link {
+		color: $font-color-menu;
+		display: block;
+		text-align: center;
+		padding: 2em;
+	}
+}
+
+
+.title {
+	text-transform: uppercase;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+}
+
+.container {
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	width: 50%;
+}
+
+.head {
+	display: flex;
+	justify-content: center;
+	background: $blue-dark-color;
+	height: 600px;
+}
+
+.description {
+	color: #fff;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 1.5;
+}
+
+.button--download {
+	margin: 1.5em;
+	border-radius: 30px;
+	padding: 1em 2em;
+	background: $green-color;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+.operating-systems {
+	color: #fff;
+	font-size: 30px;
+
+	& i {
+		margin: .2em;
+	}
+}

@@ -1,0 +1,25 @@
+.logos {
+	
+	color: $grey-color;
+	font-size: $l;
+	text-align: center;
+	margin: 1.7em 0;
+	
+
+	& i {
+		margin: 1.7em;
+	}
+}
+
+.container-description {
+	padding-top: 4em;
+
+}
+.title-light {
+	color: $green-color;
+	text-align: center;
+}
+
+.subtitle {
+	text-align: center;
+}

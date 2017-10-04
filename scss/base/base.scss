@@ -1,0 +1,33 @@
+
+
+//Tamaños de fuentes
+
+$xl:80px;
+$l: 38px;
+$m: 16px;
+$s: 14px;
+$xs: 12px;
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+
+	& h1 {
+		font-family: 'Raleway', sans-serif;
+		font-size: $xl;
+	}
+	
+	& h2 {
+		font-family: 'Raleway', sans-serif;
+		font-size: $l;
+	}
+
+}
+
+a {
+	text-decoration: none;	
+}
+
+span {
+	color: $green-color;
+}
