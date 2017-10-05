@@ -4,10 +4,12 @@ $green-color: #00d2c4; //green
 $grey-color: #ccc; //grey
 $blue-dark-opacity: #2b3042;
 $font-color-menu: #7a819e;
+$font-color-grey: #999;
 
 //Estilos base
 @import "base/normalize";
 @import "base/base";
 @import "layout/header";
 @import "layout/section_one";
+@import "layout/section_two";
 

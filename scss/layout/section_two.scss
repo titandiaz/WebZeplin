@@ -1,0 +1,15 @@
+.item {
+	display: flex;
+	align-items: center;
+}
+
+.container-check {
+	margin-top: 3em;
+	display: flex;
+	justify-content: space-around;
+}
+
+.icon-check {
+	margin-right: 1em;
+	color: $green-color;
+}
