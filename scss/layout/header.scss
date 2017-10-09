@@ -73,3 +73,24 @@
 		margin: .2em;
 	}
 }
+
+.item {
+	font-weight: 700;
+	line-height: 0;
+}
+
+.iphone {
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+}
+
+.store {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.stores {
+	width: 160px;
+	margin: .5em;
+}

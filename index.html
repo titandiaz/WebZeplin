@@ -5,8 +5,10 @@
   <title>Web Zeplin</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="css/styles.css" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,6s00|Raleway:400,700" rel="stylesheet">
   <link href="https://file.myfontastic.com/BGXzLWQonEDDTSPd3hmj33/icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/css/swiper.min.css">
+
 </head>
 <body>
 
@@ -138,11 +140,91 @@
     </div>
   </div>
 
-  <!-- <img src="img/iphone.png" alt="Iphone" class="iphone"> -->
+  <img src="img/iphone.png" alt="Iphone" class="iphone">
   
-  <!-- <img src="img/google.png" alt="Play Store" class="google">
-  <img src="img/apple.png" alt="App Store" class="Apple"> -->
+  <div class="store">
+    <img src="img/google.png" alt="Play Store" class="stores google">
+    <img src="img/apple.png" alt="App Store" class="stores Apple">
+  </div>
+
+  <div class="banner">
+    
+  </div>
+
+ <!-- Swiper -->
+ <section class="swiper">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="avatar"></div>
+           <p class="description-swiper">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat debitis id dolorem eligendi fugit iusto doloribus quos provident, dolores quisquam numquam molestias nemo suscipit mollitia maxime, est quasi delectus nulla!</p>
+           <p class=" description-swiper name">Founder - Ahmed Hamdy</p>
+        </div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </section>
+
+  <div class="container-description">
+    <h3 class="title-light">Pricing</h3>
+    <h2 class="subtitle">Our Pricing Table</h2>
+    <p class="description-grey">Lorem Ipsum is simply dummy text of the printing and typesetting industry standard dummy text ever since the 1500s, Ipsum is simply dummy text of the printing and typesetting industry standard</p>
+  </div>
+
+  <!-- Plans -->
+
+  <div class="plans">
+    <div class="container-plans">
+      <div class="plan-dark plan-basic">
+        <div class="container-description-dark">
+          
+          <h3 class="title-plan">Basic</h3>
+          <div class="price">199</div>
+          <div class="period">Monthly</div>
+        </div>
+      </div>
+      <div class="plan-light">
+        <ul class="list-items">
+          <li class="list-item">Fully Responsive</li>
+          <li class="list-item">Clean Design</li>
+          <li class="list-item">Tons of Features</li>
+          <li class="list-item">Awesome Shortcodes</li>
+          <li class="list-item">Easy to Customize</li>
+          <li class="list-item">Boostrap Pricing Tables</li>
+        </ul>
+        <a href="#" class="button button-buy">Buy Now</a>
+
+      </div>
+    </div>
+
+    
+
+    
+  </div>
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/js/swiper.min.js"></script>
 
 
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
 </body>
 </html>
