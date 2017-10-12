@@ -1,0 +1,25 @@
+.contact-form {
+	width: 600px;
+	max-width: 100%;
+	text-align: center;
+	margin: 80px auto 40px;
+	
+}
+
+.input-name, .input-email, .input-message {
+	display: block;
+	width: 100%;
+	border: 1px solid $grey-color;
+	margin-bottom: 2em;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.input-name, .input-email {
+	padding: 1em;
+}
+
+.input-message {
+	padding: 1em 1em 100px;
+	margin-bottom: 0;
+}

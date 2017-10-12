@@ -408,16 +408,30 @@ a {
 span {
   color: #00d2c4; }
 
+.navbar {
+  background: #2b3042; }
+
 .navbar-toggle {
   display: none; }
 
+.collapse {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-right: 2em; }
+
 .navbar-nav {
+  width: 800px;
   list-style: none;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  background: #2b3042;
   margin: 0;
   padding-left: 0; }
   .navbar-nav .nav-item {
@@ -431,6 +445,15 @@ span {
     display: block;
     text-align: center;
     padding: 2em; }
+
+.navbar-brand {
+  color: #fff;
+  background: #00d2c4;
+  width: 50px;
+  height: 50px;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center; }
 
 .title {
   text-transform: uppercase;
@@ -478,6 +501,7 @@ span {
   margin: 1.5em; }
 
 .button {
+  border: 0;
   border-radius: 30px;
   padding: 1em 2em;
   background: #00d2c4;
@@ -786,3 +810,35 @@ span {
 
 .button-buy {
   margin: 1em auto; }
+
+.contact-form {
+  width: 600px;
+  max-width: 100%;
+  text-align: center;
+  margin: 80px auto 40px; }
+
+.input-name, .input-email, .input-message {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-bottom: 2em;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.input-name, .input-email {
+  padding: 1em; }
+
+.input-message {
+  padding: 1em 1em 100px;
+  margin-bottom: 0; }
+
+.footer {
+  color: #ccc;
+  width: 100%;
+  height: 100px;
+  background: #1b1c1f;
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 50px;
+  font-size: 12px; }
