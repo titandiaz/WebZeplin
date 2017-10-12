@@ -37,7 +37,7 @@
 	flex-direction: column;
 	align-items: center;
 	margin: auto;
-	width: 50%;
+	width: 30%;
 }
 
 .head {
@@ -55,8 +55,10 @@
 	line-height: 1.5;
 }
 
-.button--download {
+.button--download{
 	margin: 1.5em;
+}
+.button {
 	border-radius: 30px;
 	padding: 1em 2em;
 	background: $green-color;

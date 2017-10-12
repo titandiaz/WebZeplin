@@ -453,7 +453,7 @@ span {
   -ms-flex-align: center;
   align-items: center;
   margin: auto;
-  width: 50%; }
+  width: 30%; }
 
 .head {
   display: -webkit-box;
@@ -475,7 +475,9 @@ span {
   line-height: 1.5; }
 
 .button--download {
-  margin: 1.5em;
+  margin: 1.5em; }
+
+.button {
   border-radius: 30px;
   padding: 1em 2em;
   background: #00d2c4;
@@ -670,11 +672,53 @@ span {
 
 .list-items {
   list-style: none;
-  margin: 0;
-  padding-left: 0; }
+  font-size: 12px;
+  margin: 20px 0 0 0;
+  padding: 0;
+  color: #282828; }
 
-.plans {
-  margin-top: 80px; }
+.list-item {
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 200px; }
+
+.container-plans {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.item-plan {
+  border: 1px solid #ccc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 1em;
+  margin-left: 1em; }
 
 .plan-dark {
   display: -webkit-box;
@@ -683,7 +727,7 @@ span {
   display: flex;
   width: 360px;
   height: 230px;
-  background: #373b4c;
+  background: #1b1c1f;
   color: #fff;
   text-align: center; }
 
@@ -701,10 +745,7 @@ span {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center; }
+  justify-content: center; }
 
 .price {
   line-height: 0.7;
@@ -729,5 +770,19 @@ span {
 
 .title-plan {
   color: #00d2c4;
-  font-size: 16px;
+  font-size: 24px;
   letter-spacing: 0.6px; }
+
+.plan-light {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.button-buy {
+  margin: 1em auto; }

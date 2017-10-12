@@ -1,18 +1,47 @@
 .list-items {
 	list-style: none;
-	margin: 0;
-	padding-left: 0;
+	font-size: $xs;
+	margin: 20px 0 0 0;
+	padding: 0;
+	color: #282828;
+	
 }
 
-.plans {
+.list-item {
+	padding: 10px 0;
+	border-top: 1px solid $grey-color;
+	display: flex;
+	justify-content : center;
+	width: 200px;
+
+}
+
+.container-plans {
 	margin-top: 80px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	
+	
+}
+
+.item-plan {
+	border: 1px solid $grey-color;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 1em;
+	margin-left: 1em;
+	
+	
+	
 }
 
 .plan-dark {
 	display: flex;
 	width: 360px;
 	height: 230px;
-	background: $blue-dark-color;
+	background: #1b1c1f;
 	color: #fff;
 	text-align: center;
 
@@ -22,7 +51,6 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-content: center;
 
 }
 
@@ -54,9 +82,18 @@
 
 .title-plan {
 	color: $green-color;
-	font-size: $m;
+	font-size: $ml;
 	letter-spacing: 0.6px;
-	
+}
+
+.plan-light {
+	display: flex;
+	flex-direction: column;
 
 }
 
+.button-buy {
+	margin: 1em auto;
+
+	
+}
